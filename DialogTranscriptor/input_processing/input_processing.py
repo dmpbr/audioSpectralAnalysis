@@ -194,6 +194,6 @@ def get_signal_mfcc_features(filename, sample_rate=16000, pre_emphasis=0.97, fra
 
 
 if __name__ == "__main__":
-  file = '/Users/diogo/Ambrosio/diogo_voice_hello.wav'
+  file = './diogo_voice_hello.wav'
   frames_feat = get_signal_mfcc_features(file)
   print("Got {} frames with {} features".format(frames_feat.shape[0], frames_feat.shape[1]))
